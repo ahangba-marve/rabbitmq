@@ -6,10 +6,10 @@ services:
   - key: RABBITMQ_ERLANG_COOKIE
     generateValue: true
   - key: RABBITMQ_DEFAULT_USER
-    value: rabbitmq
+    value: calendula_mq
   - key: RABBITMQ_DEFAULT_PASS
     generateValue: true
   disk:
-    name: rabbitmq
+    name: calendula.technologies_mq
     mountPath: /var/lib/rabbitmq
     sizeGB: 10
